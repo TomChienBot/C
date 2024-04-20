@@ -1,8 +1,0 @@
-+ Fallthrough: được sử dụng để chỉ ra việc chuyển từ case này sang case khác là cố ý , ko phải lỗi.
-+ goto: Lệnh nhảy đến 1 điểm khác trong code thông qua label.
-+ So sánh break và return:
-Break : Dùng để kết thúc câu lệnh điều kiện, và tiếp thực thi câu lệnh tiếp theo ngoài vòng lặp.
-Return: Dùng để kết thúc toàn bộ hàm, tiếp tục thực thi tại thời điểm hàm được gọi.
-+ continue: Nhảy đến cuối vòng lặp
-+ std::exit :Được gọi ngầm khi kết thúc hàm main, muốn dùng để kết thúc sớm hàm main cần thêm thư viện cstdlib
-+ Các câu lệnh điều kiện: While, for, if else, switch case.

@@ -1,0 +1,5 @@
+Tổng hợp:
+1. Theo quy ước, các biến toàn cục được khai báo ở đầu file sau khai báo thư viện và trước thân chương trình
+2. Khởi tạo biến toàn cục( vd: int a) như biến cục bộ
+
+Output: https://www.learncpp.com/cpp-tutorial/introduction-to-global-variables/

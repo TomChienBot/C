@@ -1,0 +1,10 @@
+Kế hoạch tìm hiểu ngày 22/4/2024
+
+Goto statements
+Introduction to loops and while statements
+Do while statements
+For statements
+Break and continue
+Introduction to random number generation
+Generating random numbers using Mersenne Twister
+Global random numbers (Random.h)

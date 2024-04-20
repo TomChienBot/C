@@ -1,0 +1,4 @@
+Tổng hợp:
+
+1. Fallthrough được sử dụng để chỉ ra việc chuyển từ case này sang case khác là cố ý , không phải lỗi. Nó sẽ chuyển từ case này sang case khác mà không dừng lại. Lệnh break ở case tiếp theo có thể ngăn việc chuyển tiếp diễn ra
+2. Trong phạm vi switch nếu muốn khai báo các biến ở các case phải có dấu {} nếu ko phạm vi của các biến hoặc hàm khai báo sẽ là ở cuối các switch.

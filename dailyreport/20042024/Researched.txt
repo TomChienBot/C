@@ -1,0 +1,17 @@
+Tìm hiểu chapter 7:
+Compound statements (blocks)
+User-defined namespaces and the scope resolution operator
+Local variables
+Introduction to global variables
+Variable shadowing (name hiding)
+Internal linkage
+External linkage and variable forward declarations
+Why (non-const) global variables are evil
+Sharing global constants across multiple files (using inline variables)
+Static local variables
+Scope, duration, and linkage summary
+Using declarations and using directives
+Unnamed and inline namespaces
+Chapter 7 summary and quiz
+
+Đã hoàn thành- Tổng hợp ở summary
