@@ -1,7 +1,7 @@
-Tìm hiểu chapter 7:
+chapter 7:
 Compound statements (blocks) : Summary/Chapter 7/Compound statements (blocks)			
 User-defined namespaces and the scope resolution operator: Summary/Chapter 7/User-defined namespaces and the scope resolution operator
-Local variables: Summary/Chapter 7/Local variables - Hoàn thành.txt
+Local variables: Summary/Chapter 7/Local variables - HoA�n thA�nh.txt
 Introduction to global variables: Summary/Chapter 7/Introduction to global variables.txt
 Variable shadowing (name hiding): Summary/Chapter 7/Variable shadowing (name hiding).txt
 Internal linkage :Summary/Chapter 7/Internal linkage.txt
@@ -11,5 +11,3 @@ Sharing global constants across multiple files (using inline variables):
 Static local variables: Summary/Chapter 7/Static local variables.txt 
 Using declarations and using directives: Summary/Chapter 7/Using declarations and using directives.txt
 Unnamed and inline namespaces: Summary/Chapter 7/Unnamed and inline namespaces.txt
-
-Đã hoàn thành- Tổng hợp ở summary

@@ -1,0 +1,23 @@
+﻿chapter 7:
+
+Compound statements (blocks) : [Compound statements (blocks)](https://github.com/TomChienBot/C/blob/master/Summary/Chapter%207/Compound%20statements%20(blocks)%20-%20Ho%C3%A0n%20th%C3%A0nh.txt)			
+
+User-defined namespaces and the scope resolution operator: [User-defined namespaces and the scope resolution operator](https://github.com/TomChienBot/C/blob/master/Summary/Chapter%207/User-defined%20namespaces%20and%20the%20scope%20resolution%20operator%20-%20Ho%C3%A0n%20th%C3%A0nh.txt)
+
+Local variables: [local variables](https://github.com/TomChienBot/C/blob/master/Summary/Chapter%207/Local%20variables%20-%20Ho%C3%A0n%20th%C3%A0nh.txt)
+
+Introduction to global variables: [Introduction to global variables](https://github.com/TomChienBot/C/blob/master/Summary/Chapter%207/Introduction%20to%20global%20variables.txt)
+
+Variable shadowing (name hiding): [Variable shadowing (name hiding)](https://github.com/TomChienBot/C/blob/master/Summary/Chapter%207/Variable%20shadowing%20(name%20hiding).txt)
+
+Internal linkage :[Internal linkage.txt](https://github.com/TomChienBot/C/blob/master/Summary/Chapter%207/Internal%20linkage.txt)
+
+External linkage and variable forward declarations: [External linkage and variable forward declarations](https://github.com/TomChienBot/C/blob/master/Summary/Chapter%207/External%20linkage%20and%20variable%20forward%20declarations.txt)
+
+Why (non-const) global variables are evil:[Why (non-const) global variables are evil](https://github.com/TomChienBot/C/blob/master/Summary/Chapter%207/Why%20(non-const)%20global%20variables%20are%20evil.txt)
+
+Static local variables: [Static local variables](https://github.com/TomChienBot/C/blob/master/Summary/Chapter%207/Static%20local%20variables.txt)
+
+Using declarations and using directives:[Using declarations and using directives](https://github.com/TomChienBot/C/blob/master/Summary/Chapter%207/Using%20declarations%20and%20using%20directives.txt)
+
+Unnamed and inline namespaces: [Unnamed and inline namespaces](https://github.com/TomChienBot/C/blob/master/Summary/Chapter%207/Unnamed%20and%20inline%20namespaces.txt)
