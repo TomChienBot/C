@@ -1,5 +1,0 @@
-Tổng hợp:
-
-1. Hàm được khai báo trong namespace không có tên có thể được gọi ra không cần tên của namespace.
-2. Sử dụng inline namespace để khai báo không gian tên nội tuyến. Nó giống như namespace không tên có thể gọi mà không cần tên của namespace.
-3. Sử dụng inline namespace khi ta muốn dùng phiên bản mới nhất của hàm nhưng vẫn muốn có thể gọi lại phiên bản cũ bất cứ lúc nào.

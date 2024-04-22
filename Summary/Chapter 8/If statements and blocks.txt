@@ -1,8 +1,23 @@
-Tổng hợp: 
-1.Form câu lệnh:
-if (condition)
-    true_statement;
-else
-    false_statement;
-Bắt đầu với điều kiện lệnh if, nếu đúng điều kiện thì thực hiện câu lệnh trong if nếu sai thì thực hiện câu lệnh trong else.
-2. Có thể sử dụng đơn lệnh if , không cần else.
+Tổng hợp
+
+1. Quick if-statement recap:
+
+form:  if (condition)
+    	 true_statement;
+hoặc 
+	if (condition)
+   	 true_statement;
+	else
+   	 false_statement;
+nếu điều kiện là true thì true_statement sẽ được chạy nếu là false thì false statment sẽ chạy
+
+2. If or else with multiple conditional statements:
+true statement và false statement chỉ có thể là câu lệnh đơn.
+Nếu muốn sử dụng nhiều câu lệnh ta cần sử dụng câu lệnh ghép khối.
+
+3. To block or not to block single statements
+Nên sử dụng các khối sau câu lệnh if và else nếu không muốn chúng hoạt động sai với mong muốn:
+
+	if (age >= minDrinkingAge)
+    		purchaseBeer();
+   		gamble(); // will always execute

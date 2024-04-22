@@ -1,5 +1,0 @@
-Tổng hợp:
-1. Ẩn biến là khai báo biến ở khối ngoài cùng tên với khối bên trong nên nếu khi in biến ra sẽ là giá trị của biến đc khai báo ở khối bên trong.
-2. Để gọi biên bên ngoài bị ẩn sử dụng toán tử phân giải phạm vi (::).
-
-output: https://www.learncpp.com/cpp-tutorial/variable-shadowing-name-hiding/

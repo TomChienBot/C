@@ -1,6 +1,0 @@
-Tổng hợp:
-1. Biến cục bộ khai báo và sử dụng trong phạm vi khối hoặc hàm.
-2. Tên biến trong phạm vi hàm khối là độc nhất.
-3. Biến nên khai báo ở phạm vi hạn chế, khối hay hàm nào cần thì khai báo.
-
-Output: https://www.learncpp.com/cpp-tutorial/local-variables/

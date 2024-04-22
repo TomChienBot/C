@@ -1,7 +1,0 @@
-Tổng hợp:
-+ Câu lệnh ghép (Khối lệnh): là 1 nhóm không hoặc nhiều câu lệnh được trình biên dịch xử lí như 1 câu lệnh đơn lẻ.
-+ Khối lệnh được đặt trong dấu {}.
-+ Hàm không thể lồng vào trong hàm khác nhưng khối có thể.
-+ C++ hỗ trợ tối đa 256 lớp lồng {}.
-
-output: https://www.learncpp.com/cpp-tutorial/compound-statements-blocks/

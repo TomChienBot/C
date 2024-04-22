@@ -1,6 +1,0 @@
-Tổng hợp:
-
-1. Sử dụng static để khai báo biến tĩnh.
-2. Khi khai báo biến tĩnh, biến sẽ không bị hủy sau khi kết thúc hàm.
-
-Output: https://www.learncpp.com/cpp-tutorial/static-local-variables/

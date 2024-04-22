@@ -1,4 +1,0 @@
-Tổng hợp:
-
-Sử dụng câu lệnh: if constexpr ()
-Chương trình sẽ đánh giá điều kiện của if tại thời gian biên dịch, nếu điều kiện đúng thì toàn bộ câu lệnh if - else sẽ chỉ giữ lại lệnh đúng, nếu sai thì toàn bộ câu lệnh chỉ giữ lại lệnh sai.

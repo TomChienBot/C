@@ -1,7 +1,0 @@
-Tổng hợp:
-+ Namespace là không gian được người dùng tạo cho khai báo riêng của mình (hàm).
-+ Định danh namespace bằng tên thường không viết hoa ( Ví dụ: namespace binh).
-+ Gọi Hàm trong namespace (truy cập namespace bằng toán tử phân giải phạm vi "::").
-+ Gọi hàm mà không có tiền tố ( ví dụ: hàm print() được khai báo trong foo mà khi gọi chỉ có :: print(); thì sẽ gọi hàm print ở global namespace).
-+ namespace lồng nhau (ví dụ: foo::goo::hàm())
-+ bí danh (namespace boo = foo :: goo => foo::goo::hàm() = boo::hàm()).
