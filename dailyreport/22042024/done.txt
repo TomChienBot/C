@@ -7,4 +7,4 @@ Halts (exiting your program early)			Summary/Chapter 8/Halts (exiting your progr
 Introduction to random number generation		Summary/Chapter 8/Introduction to random number generation.txt
 Generating random numbers using Mersenne Twister	Summary/Chapter 8/Generating random numbers using Mersenne Twister.txt
 
-Hoàn thànhh
+Hoàn thànhh https://github.com/TomChienBot/C/blob/master/Summary/Chapter%208/Break%20and%20continue.txt
