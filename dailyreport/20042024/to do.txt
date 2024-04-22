@@ -1,8 +1,0 @@
-Kế hoạch tìm hiểu ngày 21/4/2024
-
-Control flow introduction
-If statements and blocks
-Common if statement problems
-Constexpr if statements
-Switch statement basics
-Switch fallthrough and scoping
