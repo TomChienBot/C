@@ -1,0 +1,4 @@
+Tổng hợp: 
+Không nên sử dụng các biến toàn cục không phải const vì giá trị của chúng có thể bị thay đổi bởi hàm mà người dùng không phát hiện ra.
+
+Output: https://www.learncpp.com/cpp-tutorial/why-non-const-global-variables-are-evil/

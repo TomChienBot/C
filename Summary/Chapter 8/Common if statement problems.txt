@@ -1,0 +1,7 @@
+Tổng hợp
+1. Các câu lệnh if lồng nhau: if(cond){
+				if(cond){
+có thể xử lí bằng if(_){}
+		  else if(_){}
+		  else
+2. Toán tử == để so sánh , toán tử =  để gán giá trị.

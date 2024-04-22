@@ -1,0 +1,17 @@
+1. Break
+Câu lệnh break có thể khiến các câu lệnh while, for, switch kết thúc và tiếp tục thực hiện các câu lệnh tiếp theo sau vòng lặp.
+
+2. Breaking a switch
+break thường được sử dụng ở cuối mỗi case để biểu thị case đã kết thúc.
+
+3. Breaking a loop
+break dùng để kết thúc sớm vòng lặp
+break cũng thường dùng để kết thúc 1 vòng lặp vô hạn có chủ đích
+
+4. Break vs return
+break: Chấm dứt công việc trong vòng lặp và bắt đầu công việc tiếp theo bên ngoài vòng lặp
+Return: Kết thúc toàn bộ thực thi của một hàm và trả lại giá trị (nếu có) cho nơi gọi hàm đó. Khi một hàm thực thi đến câu lệnh return, nó sẽ ngay lập tức kết thúc và các câu lệnh sau return trong hàm đó sẽ không được thực hiện.
+
+5. Continue
+Nhảy đến cuối vòng lặp.
+

@@ -1,0 +1,13 @@
+1. A halt
+là một câu lệnh điều khiển luồng để kết thúc chương trình. Trong C++, lệnh dừng được triển khai dưới dạng hàm, vì vậy câu lệnh Halt của chúng ta là lệnh gọi hàm.
+2. The std::exit() function
+là câu lệnh khiến cho chương trình kết thúc một cách thông thường.
+3.Calling std::exit() explicitly
+Câu lệnh std::exit(): gọi ngầm khi hàm main() kết thúc. Nếu muốn gọi hàm để kết thúc sớm cần thêm thư viện cstdlib.
+4. std::atexit
+Câu lệnh này cho phép gọi 1 hàm chỉ định 1 cách tự động khi kết thúc chương trình thông qua std::exit().
+5. std::abort and std::terminate
+thư viện: cstdlib
+
+6. When should you use a halt?
+Ngắn gọn là: hầu như không bao giờ :))

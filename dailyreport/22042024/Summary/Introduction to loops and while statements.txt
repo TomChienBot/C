@@ -1,0 +1,17 @@
+1.Introduction to loops:
+Loop: lặp lại 1 hay nhiều lệnh cho đến khi biểu thức điều kiện có giá trị sai.
+
+2. While statements:
+Câu lệnh While được khai báo bằng từ khóa while. khi câu lệnh while được thực hiện, điều kiện của while sẽ được đánh giá. Nếu điều kiện là đúng thì câu lệnh liên quan được thực hiện.
+
+Không giống if, Sau khi câu lệnh được thực hiện xong. Sẽ quay lại đánh giá biểu thức của while là tiếp tục lặp. Nếu kết quả là False thì thoát khỏi vòng lặp while
+
+3. While-statements that evaluate to false initially
+Khi điều kiện ban đầu là False, các câu lệnh trong while sẽ ko được thực hiện ( bỏ qua while và tiếp tục thực hiện câu lệnh bên dưới)
+
+4. Infinite loops
+Khi điều kiện của while luôn có giá trị là True => vòng lặp sẽ thực hiện mãi mãi => gọi là lặp vô tận.
+
+5. Intentional infinite loops
+Cách để thoát khỏi vòng lặp vô tận : dùng lệnh return, break, exit và goto, người dùng tắt chương trình.
+

@@ -1,0 +1,7 @@
+Tổng hợp:
+
+1. Có thể truy cập các biến và hàm từ file khác nhờ liên kết ngoài.
+2. Để khai báo liên kết ngoài cần có từ khóa extern.
+3. Biến toàn cục có liên kết ngoài: (VD int g; extern const g;).
+
+Output: https://www.learncpp.com/cpp-tutorial/external-linkage-and-variable-forward-declarations/

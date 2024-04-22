@@ -1,0 +1,15 @@
+Goto: là lệnh điều khiển luồng để nhảy đến 1 điểm khác trong code. Điểm này được xác định bởi label
+* Cú pháp: goto label
+           ....
+	   label:
+		statement;
+hoặc
+	   label: statmemt;
+	   goto label
+1. Statement labels have function scope(Nhãn câu lệnh có phạm vi chức năng):
+
+Có 2 loại scope đã học là local(block) scope và file (global) scope. Label sử dụng loại thứ 3 là function Scope.
+Có nghĩa là: label được hiển thị trong toàn bộ hàm ngay cả trước điểm khai báo của nó. Câu lệnh goto và label tương ứng của nó phải xuất hiện trong cùng một hàm.
+
+2. Avoid using goto
+? 

@@ -1,7 +1,42 @@
 Tổng hợp
-1. Các câu lệnh if lồng nhau: if(cond){
-				if(cond){
-có thể xử lí bằng if(_){}
-		  else if(_){}
-		  else
-2. Toán tử == để so sánh , toán tử =  để gán giá trị.
+
+1. Nested if statements and the dangling else problem:
+Có thể lồng 2 câu lệnh if với nhau.
+ví dụ:
+	
+	if (x >= 0) // outer if statement
+            if (x <= 20) // inner if statement
+                std::cout << x << " is between 0 and 20\n";
+
+        else
+            std::cout << x << " is negative\n";
+Điều này gây ra một vấn đề là dangling else. Câu lệnh else trên sẽ đi cùng câu lệnh if ở trong hay ngoài ?
+Để giải quyết:
+Ta có thể đặt câu lệnh if bên dưới vào 1 khối. Điều đó cho phép ta gắn kèm else 1 cách rõ ràng.
+ví dụ:	 
+if (x >= 0)
+    {
+        if (x <= 20)
+            std::cout << x << " is between 0 and 20\n";
+        else // attached to inner if statement
+            std::cout << x << " is greater than 20\n";
+    }
+    else // attached to outer if statement
+        std::cout << x << " is negative\n";
+
+2. Flattening nested if statements.
+Câu lệnh if lồng nhau có thể được làm phẳng bới các thay đổi cấu trúc logic và thêm câu lệnh else if. ví dụ:
+    if (x < 0)
+        std::cout << x << " is negative\n";
+    else if (x <= 20) // only executes if x >= 0
+        std::cout << x << " is between 0 and 20\n";
+    else // only executes if x > 20
+        std::cout << x << " is greater than 20\n";
+
+3. Null statements.
+Là câu lệnh biểu thức chỉ bao gồm dấu ;
+Ví dụ:
+if (x > 10)
+	; //the semicolon acts as a null statement
+
+

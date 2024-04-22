@@ -1,0 +1,4 @@
+Tổng hợp:
+
+Câu lệnh switch - case sẽ duyệt tất cả các giá trị trong switch, Các case chính là giá trị của switch duyệt qua.
+Cuối mỗi case có break; cho chương trình hiểu là đã thực hiện xong tất cả các biểu thức trong trường hợp này của switch có thể tiếp tục với trường hợp sau.

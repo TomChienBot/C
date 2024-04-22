@@ -1,0 +1,8 @@
+Tổng hợp:
+
+1. Các biển được khai báo bằng static, Const và constexpr là các biến có liên kết nội bộ
+2. Không được có nhiều hơn 1 liên kết nội bộ.
+3. Hàm cũng có thể có liên kết nội bộ.
+4. Liên kết nội bộ chỉ có thể truy cập trong cùng 1 file.
+
+Output: https://www.learncpp.com/cpp-tutorial/internal-linkage/
