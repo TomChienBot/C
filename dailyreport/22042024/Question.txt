@@ -1,0 +1,9 @@
+Câu hỏi 1: phần:Introduction to random number generation
+Trạng thái này thường bao gồm seed (hạt giống) ban đầu và có thể bao gồm các giá trị khác được tính toán trong quá trình tạo số ngẫu nhiên
+
+Các giá trị được tính toán trong quá trình tạo số ngẫu nhiên là gì ? có phải các số random sau khi được tạo ra không ?
+
+Câu hỏi 2 phần: Generating random numbers using Mersenne TwisterGenerating random numbers using Mersenne Twister
+Nói chung nên tránh việc gieo hạt lại trừ khi bạn có lý do cụ thể để làm như vậy, vì nó có thể khiến kết quả ít ngẫu nhiên hơn hoặc hoàn toàn không ngẫu nhiên. ?
+
+Tại sao reseed lại làm mất tính ngẫu nhiên ?

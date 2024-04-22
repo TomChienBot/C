@@ -1,0 +1,8 @@
+Mục tiêu ngày 23/4
+Introduction to testing your code
+Code coverage
+Common semantic errors in C++
+Detecting and handling errors
+std::cin and handling invalid input
+Assert and static_assert
+Chapter 9 summary and quiz

@@ -1,0 +1,35 @@
+1. Generating random numbers in C++ using Mersenne Twister
+
+The Mersenne Twister PRNG có lẽ là PRNG phổ biến nhất trong tất cả các ngôn ngữ lập trình.
+Thư viện random hỗ trợ 2 loại Mersenne Twister:
+-mt19937 là mersenne twister tạo ra số nguyên ko dấu 32 bits
+-mt19937_64 là mersenne twister tạo ra sô nguyên ko dấu 64 bits
+
+2. Rolling a dice using Mersenne Twister
+
+Đổ xúc sắc random từ 1 đến 6, hay trong game người chơi có thanh kiếm có thể đánh quái với dame từ 7- 11 , chúng ta ko thể dùng PRNG, PRNG chỉ tạo các số trong phạm vi đầy đủ (ví dụ 32 bit là từ 0 - 4,294,967,295).
+
+Thư viện random sẽ hữu ích trong trường hợp này. trong dạng random number distributions.
+
+A random number distribution chỉ được thiết kế để nhận giá trị PRNG làm gia trị đầu vào.
+
+The above program isn’t as random as it seems
+
+Đã chạy thuật toán random đổ xúc sắc và cho ra đầu ra 3 lần đều giống nhau.
+Lí do: khi ta khởi tạo Mersenne Twister, nó bắt đầu khởi tạo với cùng 1 seed ở mọi laanfn vì thế chúng ta có cùng kết quả random.
+
+Để xử lí vấn đề trên có 2 phương pháp thường dùng:
+Use the system clock
+Use the system’s random device
+
+3. Seeding with the system clock ?
+Sử dụng thư viện <chrono>
+
+4. Seeding with the random device
+Sử dụng thư viện <random>
+Sử dụng câu lệnh std::random_device 
+std::mt19937 mt{ std::random_device{}() };
+có 1 vấn đề tiềm tàng là câu lệnh này không mang tính quyết định, trong 1 vào trường hợp nó sẽ ra cùng 1 chuỗi vào mọi thời điểm chương trình chạy.
+
+5. Only seed a PRNG once
+Nói chung nên tránh việc gieo hạt lại trừ khi bạn có lý do cụ thể để làm như vậy, vì nó có thể khiến kết quả ít ngẫu nhiên hơn hoặc hoàn toàn không ngẫu nhiên. ?

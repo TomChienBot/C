@@ -1,0 +1,44 @@
+Khả năng tạo ra số ngẫu nhiên có thể hữu dụng trong 1 vài chương trình, cụ thể là game, mô hình thống kê và ứng dụng mật mã. Ví dụ ở game: nếu ko có sự kiện ngẫu nhiên, quái sẽ tấn công bạn theo 1 cách, bạn sẽ tìm đc 1 kho báu, và hình dạng hầm nguch sẽ chẳng bao giờ thay đổi. 
+
+1.Algorithms and state
+Thuật toán là 1 chuỗi hữu hạn các hướng dẫn có thể thực hiện theo để giải quyết vấn đề hoặc tạo ra 1 số kết quả có ích.
+Ví dụ bài toán là cái hòm thì thuật toán chính là chìa khóa.
+
+2.Pseudo-random number generators (PRNGs)(Trình tạo số giả ngẫu nhiên):
+
+Trạng thái của một Pseudo-Random Number Generator (PRNG), hay còn gọi là “state”, là một tập hợp các giá trị nội bộ mà PRNG sử dụng để tạo ra chuỗi số ngẫu nhiên tiếp theo. 
+
+Trạng thái này thường bao gồm seed (hạt giống) ban đầu và có thể bao gồm các giá trị khác được tính toán trong quá trình tạo số ngẫu nhiên1. PRNG bắt đầu từ một trạng thái khởi đầu tùy ý sử dụng seed và sau đó sử dụng một thuật toán để tạo ra một chuỗi số có tính chất gần giống với chuỗi số ngẫu nhiên
+
+Thuật toán cơ bản:
+#include <iostream>
+unsigned int LCG16() // our PRNG
+{
+    static unsigned int s_state{ 0 }; 
+    // Generate the next number
+    // We modify the state using large constants and intentional overflow to make it hard
+    // for someone to casually determine what the next number in the sequence will be.
+    s_state = 8253729 * s_state + 2396403; // first we modify the state
+    return s_state % 32768; // then we use the new state to generate the next number in the sequence
+}
+int main()
+{
+    // Print 100 random numbers
+    for (int count{ 1 }; count <= 100; ++count)
+    {
+        std::cout << LCG16() << '\t';
+
+        // If we've printed 10 numbers, start a new row
+        if (count % 10 == 0)
+            std::cout << '\n';
+    }
+    return 0;
+}
+3. Seeding a PRNG(tạo 1 PRNG)
+Chuỗi số "ngẫu nhiên" được tạo bở PRNG không hẳn là ngẫu nhiên. cho giá trị ban đầu(chẳng hạn như 0), PRNG sẽ tạo ra 1 cùng 1 chuỗi số. Nếu bạn chạy chương trình trên 3 lần, sẽ thấy cùng 1 chuỗi kết quả mỗi lần chạy.
+
+Vì giá trị của PRNG được đặt từ seed value, nên tất cả giá trị mà PRNG tạo ra đều dựa trên tính toán từ seed value.
+
+vậy để tạo 1 chuỗi PRNG khác nhau sau mỗi lần chạy cần phải thay đổi seed value().
+
+

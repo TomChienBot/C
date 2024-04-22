@@ -7,3 +7,5 @@ Halts (exiting your program early)
 Introduction to random number generation
 Generating random numbers using Mersenne Twister
 Global random numbers (Random.h)
+
+Hoàn thànhh
