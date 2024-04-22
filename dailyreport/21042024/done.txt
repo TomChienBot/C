@@ -1,0 +1,7 @@
+Các đề mục dự kiến: 
+If statements and blocks		Summary/Chapter 8/If statements and blocks.txt
+Common if statement problems		Summary/Chapter 8/Common if statement problems.txt
+Constexpr if statements			Summary/Chapter 8/Constexpr if statements.txt
+Switch statement basics			Summary/Chapter 8/Switch statement basics.txt
+Switch fallthrough and scoping		Summary/Chapter 8/Switch fallthrough and scoping.txt
+

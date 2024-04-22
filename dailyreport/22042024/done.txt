@@ -1,11 +1,10 @@
-Goto statements						
-Introduction to loops and while statements
-Do while statements
-For statements
-Break and continue
-Halts (exiting your program early)
-Introduction to random number generation
-Generating random numbers using Mersenne Twister
-Global random numbers (Random.h)
+Goto statements						Summary/Chapter 8/Goto statements.txt				
+Introduction to loops and while statements		Summary/Chapter 8/Introduction to loops and while statements.txt
+Do while statements					Summary/Chapter 8/Do while statements.txt
+For statements						Summary/Chapter 8/For statements.txt
+Break and continue					Summary/Chapter 8/Break and continue.txt
+Halts (exiting your program early)			Summary/Chapter 8/Halts (exiting your program early).txt
+Introduction to random number generation		Summary/Chapter 8/Introduction to random number generation.txt
+Generating random numbers using Mersenne Twister	Summary/Chapter 8/Generating random numbers using Mersenne Twister.txt
 
 Hoàn thànhh
