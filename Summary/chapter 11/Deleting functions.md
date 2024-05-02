@@ -41,7 +41,7 @@ Việc xóa một loạt các hàm nạp chồng chức năng riêng lẻ có t�
 Chúng ta có thể làm điều này bằng cách sử dụng một mẫu hàm(function template):
 
 
-// This function will take precedence for arguments of type int
+// This function will take precedence for arguments of type int(Hàm này sẽ được ưu tiên cho các đối số kiểu int)
 void printInt(int x)
 {
     std::cout << x << '\n';
