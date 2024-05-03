@@ -19,7 +19,7 @@ int main()
 
 Ở chương trình trên biểu thức 2 + 3 được đánh giá để tạo giá trị 5.
 
-chúng tôi cũng lưu ý rằng biểu thức có thể tạo ra tác dụng phụ tồn tại lâu hơn biểu thức:
+Lưu ý rằng biểu thức có thể tạo ra tác dụng phụ tồn tại lâu hơn biểu thức:
 
 #include <iostream>
 
