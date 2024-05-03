@@ -10,6 +10,7 @@ ví dụ:
 
 int main()
 {
+
     std::cout << 2 + 3 << '\n';
 
     return 0;
@@ -24,6 +25,7 @@ chúng tôi cũng lưu ý rằng biểu thức có thể tạo ra tác dụng ph
 
 int main()
 {
+
     int x { 5 };
     ++x; // This expression statement has the side-effect of incrementing x
     std::cout << x << '\n'; // prints 6
@@ -31,7 +33,7 @@ int main()
     return 0;
 }
 
-Biểu thức ++x tăng giá trị của x, giá trị của x vẫn tiếp tục thay đổi cho dù biểu thức đã đánh giá xong (thay đổi vinh viễn giá trị của x)
+Biểu thức ++x tăng giá trị của x, giá trị của x vẫn tiếp tục thay đổi cho dù biểu thức đã đánh giá xong (thay đổi vinh viễn giá trị của x) ở đây giá trị của x sẽ bằng 6 sau khi biểu thức được thực hiện chứ không quay về bằng 5.
 
 2. The properties of an expression
 
@@ -43,6 +45,7 @@ Loại biểu thức tương đương với loại giá trị, đối tượng h
 
 int main()
 {
+
     auto v1 { 12 / 4 }; // int / int => int
     auto v2 { 12.0 / 4 }; // double / int => double
 
@@ -55,6 +58,7 @@ int main()
 
 int main()
 {
+
     int x{};
 
     x = 5; // valid: we can assign 5 to x
@@ -82,7 +86,8 @@ ví dụ:
 
 int main()
 {
-    int x { 5 };
+
+    int x { 5 }; // 5 is an rvalue
     int y { x }; // x is an lvalue expression
 
     return 0;
@@ -96,6 +101,7 @@ ví dụ:
 
 int main()
 {
+
     int x{};
     const double d{};
 
@@ -111,11 +117,13 @@ Ví dụ:
 
 int return5()
 {
+
     return 5;
 }
 
 int main()
 {
+
     int x{ 5 }; // 5 is an rvalue expression
     const double d{ 1.2 }; // 1.2 is an rvalue expression
 
@@ -138,6 +146,7 @@ Rvalue là thứ thực sự được lưu trữ tại các vị trí đó
 
 int main()
 {
+
     int x { 5 };
     int y { x }; // x is an lvalue expression
 
@@ -150,6 +159,7 @@ ví dụ:
 
 int main()
 {
+
     int x{ 1 };
     int y{ 2 };
 
