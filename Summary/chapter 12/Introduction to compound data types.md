@@ -59,9 +59,9 @@ Reference types:
 
 Enumerated types:
 
-Unscoped enumerations
-
-Scoped enumerations
+    Unscoped enumerations
+    
+    Scoped enumerations
 
 Class types:
 
