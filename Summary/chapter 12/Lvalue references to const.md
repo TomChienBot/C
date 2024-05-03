@@ -63,7 +63,7 @@ Best practice:
 
 3. Initializing an lvalue reference to const with an rvalue
 
-Có lẽ đáng ngạc nhiên là các tham chiếu lvalue đến const cũng có thể liên kết với các rvalue:
+Các tham chiếu lvalue đến const cũng có thể liên kết với các rvalue:
 
 #include <iostream>
 
