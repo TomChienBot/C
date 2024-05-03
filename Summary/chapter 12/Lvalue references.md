@@ -11,7 +11,9 @@
  ví dụ:
 
 int      // a normal int type
+
 int&     // an lvalue reference to an int object
+
 double&  // an lvalue reference to a double object
 
 2. Lvalue reference variables
@@ -22,9 +24,9 @@ Một trong những điều chúng ta có thể làm với loại tham chiếu l
 
 int main()
 {
+
     int x { 5 };    // x is a normal integer variable
     int& ref { x }; // ref is an lvalue reference variable that can now be used as an alias for variable x
-
     std::cout << x << '\n';  // print the value of x (5)
     std::cout << ref << '\n'; // print the value of x via ref (5)
 
@@ -44,19 +46,14 @@ ví dụ:
 
 int main()
 {
+
     int x { 5 }; // normal integer variable
     int& ref { x }; // ref is now an alias for variable x
-
     std::cout << x << ref << '\n'; // print 55
-
     x = 6; // x now has value 6
-
     std::cout << x << ref << '\n'; // prints 66
-
     ref = 7; // the object being referenced (x) now has value 7
-
     std::cout << x << ref << '\n'; // prints 77
-
     return 0;
 }
 
@@ -66,6 +63,7 @@ Trong ví dụ trên, ref là bí danh của x, vì vậy chúng ta có thể th
 
 int main()
 {
+
     int& invalidRef;   // error: references must be initialized
 
     int x { 5 };
@@ -84,6 +82,7 @@ Sau khi được khởi tạo, một tham chiếu trong C++ không thể đượ
 
 int main()
 {
+
     int x { 5 };
     int y { 6 };
 
