@@ -8,8 +8,11 @@ Tham chiếu giá trị tới const có thể liên kết với các giá trị 
 Ví dụ
 
 int main()
+
 {
+
     const int x { 5 };    // x is a non-modifiable lvalue
+    
     const int& ref { x }; // okay: ref is a an lvalue reference to a const value
 
     return 0;
@@ -22,7 +25,9 @@ ví dụ:
 
 int main()
 {
+
     const int x { 5 };    // x is a non-modifiable lvalue
+    
     const int& ref { x }; // okay: ref is a an lvalue reference to a const value
 
     std::cout << ref << '\n'; // okay: we can access the const object
@@ -39,7 +44,9 @@ Tham chiếu giá trị tới const cũng có thể liên kết với các giá 
 
 int main()
 {
+
     int x { 5 };          // x is a modifiable lvalue
+    
     const int& ref { x }; // okay: we can bind a const reference to a modifiable lvalue
 
     std::cout << ref << '\n'; // okay: we can access the object through our const reference
@@ -61,7 +68,9 @@ Có lẽ đáng ngạc nhiên là các tham chiếu lvalue đến const cũng c�
 #include <iostream>
 
 int main()
+
 {
+
     const int& ref { 5 }; // okay: 5 is an rvalue
 
     std::cout << ref << '\n'; // prints 5
@@ -77,7 +86,9 @@ Các tham chiếu giá trị tới const thậm chí có thể liên kết với
 
 int main()
 {
+
     // case 1
+    
     const double& r1 { 5 };  // temporary double initialized with value 5, r1 binds to temporary
 
     std::cout << r1 << '\n'; // prints 5
@@ -111,12 +122,15 @@ Tuy nhiên, hãy xem xét điều gì sẽ xảy ra trong ví dụ trên nếu �
 #include <iostream>
 
 int main()
+
 {
+
     const int& ref { 5 }; // The temporary object holding value 5 has its lifetime extended to match ref
 
     std::cout << ref << '\n'; // Therefore, we can safely use it here
 
     return 0;
+    
 } // Both ref and the temporary object die here
 
 Key insight:
