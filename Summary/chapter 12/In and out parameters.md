@@ -144,3 +144,54 @@ Best practice:
 
 
 5. When to pass by non-const reference
+
+Nếu bạn định chuyển bằng tham chiếu để tránh tạo một bản sao của đối số, bạn hầu như luôn phải chuyển qua tham chiếu const.
+
+Tuy nhiên, có hai trường hợp chính trong đó việc chuyển qua tham chiếu không phải hằng có thể là lựa chọn tốt hơn.
+
+Đầu tiên , truyền tham chiếu non - const khi tham số là tham số in/out
+
+    void modifyFoo(Foo& inout)
+    {
+        // modify inout
+    }
+
+    int main()
+    {
+        Foo foo{};
+        modifyFoo(foo); // foo modified after this call, slightly more obvious
+
+        return 0;
+    }
+
+Cách khác là chuyển đối tượng theo giá trị hoặc tham chiếu const thay thế (như thường lệ) và trả về một đối tượng mới theo giá trị, sau đó người gọi có thể gán lại cho đối tượng ban đầu:
+
+    Foo someFcn(const Foo& in)
+    {
+        Foo foo { in }; // copy here
+        // modify foo
+        return foo;
+    }
+
+    int main()
+    {
+        Foo foo{};
+        foo = someFcn(foo); // makes it obvious foo is modified, but another copy made here
+
+        return 0;
+    }
+
+sử dụng truyền bằng tham chiếu không phải const khi một hàm sẽ trả về một đối tượng theo giá trị cho người gọi, nhưng việc tạo một bản sao của đối tượng đó là cực kỳ tốn kém. Đặc biệt nếu hàm được gọi nhiều lần trong phần mã quan trọng về hiệu năng.
+
+    void generateExpensiveFoo(Foo& out)
+    {
+        // modify out
+    }
+
+    int main()
+    {
+        Foo foo{};
+        generateExpensiveFoo(foo); // foo modified after this call
+
+        return 0;
+    }
